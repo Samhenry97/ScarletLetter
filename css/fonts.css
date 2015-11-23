@@ -1,0 +1,28 @@
+@font-face {
+	font-family: "Alex";
+	src: url("fonts/AlexBrush.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: url("fonts/Raleway.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Quattrocento";
+	src: url("fonts/Quattrocento.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "QuattrocentoSans";
+	src: url("fonts/QuattrocentoSans.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Dosis";
+	src: url("fonts/Dosis/Dosis-Book.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Dosis-Bold";
+	src: url("fonts/Dosis/Dosis-Bold.ttf") format("truetype");
+}

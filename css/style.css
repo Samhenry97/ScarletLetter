@@ -1,0 +1,223 @@
+/****** HTML Elements ******/
+body, div, p, h1, h2, h3, h4, h5, h6, ul, li, a { /* Resets */
+	padding: 0;
+	margin: 0;
+}
+body { /* Background image */
+	background-image: url("background.jpg");
+	background-color: #c9c9c9;
+	cursor: default;
+}
+.header_top h1 { /* The logo or title of the page */
+	font: 3em "Raleway";
+	padding-top: 10px;
+}
+.main .top .left_side .section h2 {
+	font: 2em "Raleway";
+	font-weight: bolder;
+	color: white;
+	text-shadow: 1px 1px white, -1px -1px #444;
+}
+.header_top .menu_bar ul {
+	margin: 10px 0;
+	padding: 0;
+}
+.header_top .menu_bar ul li {
+	display: inline;
+	padding: 3px 10px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+.header_top .menu_bar ul li:first-child {
+	border-left: none !important;
+	border-right: 1px solid gray;
+}
+.header_top .menu_bar ul li:last-child {
+	border-right: none !important;
+	border-left: 1px solid gray;
+}
+.right_side img {
+	float: right;
+	width: 75%;
+	border: 1px solid rgba(0, 0, 0, 0);
+	-webkit-transition-duration: .7s;
+	-moz-transition-duration: .7s;
+	-ms-transition-duration: .7s;
+	-o-transition-duration: .7s;
+	transition-duration: .7s;
+}
+.right_side img:hover {
+	border-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/****** Classes ******/
+.header_top {
+	padding: 10px 0;
+	clear: both;
+	border-bottom: 8px solid #D63333;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	background-color: #B5B3A5;
+	text-align: center;
+	box-shadow: 0 1px 30px 0 black;
+}
+.menu_link {
+	font: .9em "Dosis", sans-serif;
+	text-decoration: none;
+	color: black;
+	-webkit-transition-duration: .4s;
+	-moz-transition-duration: .4s;
+	-ms-transition-duration: .4s;
+	-o-transition-duration: .4s;
+	transition-duration: .4s;
+}
+.menu_link:hover {
+	color: #D63333;
+}
+.no_select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.fadein {
+	/*-webkit-animation: fadein 1s;
+	-moz-animation: fadein 1s;
+	-ms-animation: fadein 1s;
+	-o-animation: fadein 1s;
+	animation: fadein 1s;*/
+}
+.main {
+	padding: 0 10% 10% 10%;
+}
+.top {
+	padding: 200px 10% 7% 10%;
+	background-color: rgba(200, 20, 20, .85);
+	height: 100%;
+	clear: both;
+	zoom: 1;
+}
+.top:before, .top:after {
+    content: "";
+    display: table;
+}
+.top:after {
+    clear: both;
+}
+.section {
+	margin-bottom: 15px;
+	padding: 10px;
+	-webkit-transition-duration: .4s;
+	-moz-transition-duration: .4s;
+	-ms-transition-duration: .4s;
+	-o-transition-duration: .4s;
+	transition-duration: .4s;
+	line-height: 25px;
+	border-radius: 100%;
+}
+.section:hover {
+	background-color: rgba(10, 10, 10, .1);
+	border-radius: 3px;
+}
+.section:last-child {
+	margin: 0 !important;
+}
+.section p {
+	margin-left: 20px;
+	text-indent: 20px;
+	text-align: justify;
+}
+.left_side {
+	float: left;
+	width: 60%;
+	display: block;
+}
+.right_side {
+	float: right;
+	display: block;
+	width: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+/****** IDs ******/
+#links {
+	color: white;
+	font: 2em "Raleway", sans-serif;
+	text-align: center;
+}
+#link_box {
+	padding: 5px;
+	width: 90%;
+	margin: auto;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+#link_box h4 {
+	font-weight: bold;
+	font: 1.3em "Dosis", sans-serif;
+	color: white;
+	margin-bottom: 10px;
+	word-spacing: 3px;
+}
+#link_box p {
+	font-size: 1em;
+	text-indent: 8px;
+	margin-bottom: 10px;
+}
+#link_box a {
+	text-decoration: none;
+	color: rgba(25, 25, 225, 1);
+}
+#link_box a:hover {
+	text-decoration: underline;
+}
+#link_box a:active {
+	text-decoration: none;
+	color: rgba(25, 25, 225, .7);
+}
+#link_box a:visited {
+	color: rgba(25, 25, 225, .5);
+}
+#body {
+	width: 100%;
+	margin: auto;
+	text-align: justify;
+	padding: 20px;
+	border: 1px solid white;
+	line-height: 35px;
+	border-radius: 20px;
+}
+#body p {
+	text-indent: 15px;
+	margin-bottom: 10px;
+}
+#body p:last-child {
+	margin-bottom: 0 !important;
+}
+#on {
+	border: 1px solid gray !important;	
+}
+#on a {
+	color: #D63333;
+	font: .9em "Dosis", sans-serif;
+	text-decoration: none;
+}
